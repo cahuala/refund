@@ -114,7 +114,7 @@ expenseList.addEventListener('click', (event) => {
     updateTotals();
   }
 });
-
+// apagar dados do formulário
 function formClear() {
   expense.value = "";
   amount.value = "";
